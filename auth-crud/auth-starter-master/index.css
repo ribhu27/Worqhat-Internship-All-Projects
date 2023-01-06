@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+body{
+    background: #F8F8F8;
+}
+
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+.card{
+    position: relative;
+    width: 800px;
+}
+
+.custom-field{
+    position: relative;
+    font-size: 14px;
+    padding-top: 20px;
+    margin-top: 5px;
+}
+
+.custom-field input{
+    padding: 12px;
+    width: 300px;
+    font-size: 14px;
+    border-radius: 3px;
+    border: 1.5px solid gray;
+    outline-color: deepskyblue;
+}
+
+.custom-field .placeholder{
+    position: absolute;
+    left: 12px;
+    top: calc(50% + 10px);
+    transform: translateY(-50%);
+    color: #aaa;
+    transition: top 0.3s ease, font-size 0.3s ease, color 0.3s ease;
+}
+
+.btn-secondary {
+    width: 130px;
+}
+
+.custom-field input:valid + .placeholder,
+.custom-field input:focus + .placeholder{
+    top: 21px;
+    font-size: 10px;
+    color: #222;
+    padding: 5px;
+    background: white;
+}
+
+.message{
+    font-size: 70px;
+    font-family: 'Ubuntu', sans-serif;
+    color: steelblue;
+}
+
+.success{
+    font-size: 18px;
+    margin-top: 15px;
+    color: seagreen;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-color: white; */
+    background-image: url("vote.jpeg");
+    background-size: 2000px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Add padding to containers */
+
+.container {
+    padding: 16px;
+    background-color: transparent;
+}
+
+nav {
+     display: block;
+     height: 90px;
+}
+
+/* Full-width input fields */
+
+input[type=text],
+input[type=password] {
+    width: 300px;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: list-block;
+    background: #fdfcfc;
+}
+
+input[type=text]:focus,
+input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+/* Overwrite default styles of hr */
+
+hr {
+    border: 1px solid transparent;
+    margin-bottom: 25px;
+}
+
+div2{
+    position: relative;
+    top:15px;
+}
+
+p1{
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+/* Set a style for the submit button */
+
+.registerbtn {
+    background-color: orangered;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 150px;
+    opacity: 0.9;
+}
+
+.registerbtn:hover {
+    opacity: 1;
+}
+
+/* Add a blue text color to links */
+
+a {
+    color: rgb(10, 113, 216);
+}
+
+b {
+    font-weight: bold; 
+}
+b1 {
+    font-weight: bold; 
+}
+b2 {
+    font-weight: bold; 
+}
+b3 {
+    font-weight: bold; 
+}
+b1::after {
+    content: '     ';
+    white-space: pre;
+}
+b2::after {
+    content: '     ';
+    white-space: pre;
+}
+b3::after {
+    content: '        ';
+    white-space: pre;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+
+.signin {
+    background-color: transparent;
+    text-align: center;
+}
+
+/*cafewala code*/
+
+ul1{
+    list-style-type: none;
+    position: relative;
+    top:30px;
+    /* background-color: transparent; */
+}
+
+li{
+    padding: 20px;
+    /* background: #f6f6f6; */
+    font-size: 15px;
+    color: #555;
+    position: relative;
+    border: 1px solid #e6e6e6;
+    height: 80px;
+    width: 500px;
+}
+
+li:nth-child(even){
+    padding: 20px;
+    /* background: #f2f2f2; */
+}
+
+li span{
+    display: block;
+    color: black;
+}
+
+li span:nth-child(2){
+    font-size: 14px;
+    margin-top: 6px;
+    color: rgb(75, 67, 67);
+}
+
+li div{
+    position: absolute;
+    top: 0;
+    right: 0px;
+    background: rgba(255,255,255,0.6);
+    width: 40px;
+    text-align: center;
+    padding: 10px 0;
+    font-weight:  bold;
+    cursor:  pointer;
+}
+
+form input{
+    float: left;
+    width: 38%;
+    margin: 0;
+    border: 0;
+    border-bottom: 1px solid #eee;
+    margin: 0 1%;
+    padding: 10px;
+    display: block;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
+form input:focus{
+    outline: none;
+    border-bottom: 3px solid #88236f;
+    padding-bottom: 8px;
+    transition: all ease 0.2s;
+}
+
+form:after{
+    content: '';
+    clear: both;
+    display: block;
+}
+
+button{
+    border: 0;
+    background: #fff;
+    border-radius: 10px;
+    padding: 13px;
+    width: 14%;
+    box-shadow: -1px 0px 1px rgba(0,0,0,0.1);
+    font-weight: bold;
+    font-family: ubuntu;
+    letter-spacing: 1px;
+    color: #999;
+}

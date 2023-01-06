@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<link href="./index.css" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body1>
+    <nav class="z-depth-0 grey lighten-4">
+        <div class="nav-wrapper container">
+            <center>
+            <a href="#" class="brand-logo">
+                <img src="My project.png" style="width: 180px; margin-top: 0px;" >
+            </a>
+        </center>
+        </div>
+    </nav>    
+    <center>
+    <div class="container">
+        <h1>Voting Management System</h1>
+        <form id="add-voter-form"></form>
+        <hr>
+        <label><b3>Voter UID</b3></label>
+        <input type="text" placeholder="Enter UID" name="v_uid" id="v_uid" required>
+        <br />
+        <label><b1>Voter Name</b1></label>
+        <input type="text" placeholder="Enter Name" name="v_name" id="v_name" required>
+        <br />
+        <label><b2>Voter Email</b2></label>
+        <input type="text" placeholder="Email" name="v_email" id="v_email" required>
+        <br />
+        <label><b>Voter Address</b></label>
+        <input type="text" placeholder="Address" name="v_address" id="v_address" required>
+        <br />
+        <label><b>Phone Number</b></label>
+        <input type="text" placeholder="Phone Number" name="v_number" id="v_number" required>
+        <br />
+        <hr>
+        <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+
+        <button type="button" id="submitData" name="submitData" class="registerbtn">Add</button>
+        <button type="button" id="submit1Data" name="submitData" class="registerbtn">Add By Id</button>
+        <button type="button" id="updateData" name="submitData" class="registerbtn">Update</button> <br />
+        <button type="button" id="getData" name="submitData" class="registerbtn">Get data</button>
+        <button type="button" id="getAllData" name="submitData" class="registerbtn">Get All data</button><br />
+        
+        <div2>
+        <p1>Voter Details.</p1>
+       </div2>
+        <ul1 id="voter-list"></ul1>
+    </div>
+</center>
+
+</form>
+
+<script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.2.2/firebase-analytics.js"></script>
+        <script getFirestore, setDoc, addDoc,doc, updateDoc,deleteDoc, getDoc, query, collection, where, getDocs, onSnapshot src="https://www.gstatic.com/firebasejs/8.2.1/firebase-firestore.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-auth.js"></script>
+
+        <script src="firebase.js"></script>
+        <script src="index2.js"></script>
+
+</body1>
+</html>
+    
